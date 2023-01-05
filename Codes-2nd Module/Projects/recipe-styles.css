@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(255,253,208);
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+h1, #intro{
+    text-align: center;
+}
+
+ol, table, p, h2, h4, h5{
+  text-align: left;  
+}
+p{
+    text-align: left;
+}
+h2{
+    font-family: Lucida Sans Typewriter;
+}
+.info, p, #content{
+    font-family: Courier;
+}
+h3, h4, h5{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    background-color: black;
+    color:rgb(255,253,208);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+table{
+    background-color: rgb(255, 220, 0);
+    color: black;
+}
