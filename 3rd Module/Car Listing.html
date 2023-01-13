@@ -8,20 +8,19 @@
 </head>
 <body>
     <script>
-var car = ['toyota', 'honda', 'mitsubishi', 'tesla', 'lexus']
+var car = ['toyota', 'honda', 'mazda', 'mitsubishi', 'tesla', 'lexus']
 
   console.log(car[0]);
 
-  for (let i = 4; i < car.length; i++) {
-  console.log(car[i]);
-      };
-
-      car[5] = 'mercedes-benz'
+  console.log(car[car.length-1]);
+  
+  car[5] = 'mercedes-benz'
       console.log(car[5]);
 
       car.forEach(function(value, index) {
         console.log(value, index);
       })
+    
     </script>
 </body>
 </html>
