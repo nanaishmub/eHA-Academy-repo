@@ -20,8 +20,8 @@
             var onCatClick = function(e) {
                 console.log(e);
                 var stashePic = document.getElementById("mustache-pic");  
-                stashePic.style.top = e.clientY + "px";
-                stashePic.style.left = e.clientX + "px";
+                stashePic.style.top = e.clientY - 10 + "px"; 
+                stashePic.style.left = e.clientX - 50 + "px";
             };
             catPic.addEventListener("click", onCatClick);
             
